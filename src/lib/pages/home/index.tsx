@@ -12,14 +12,14 @@ const Home: NextPage = () => {
       {/* FEATURES */}
       <div className="hero min-h-screen">
         <div className="hero-content flex flex-col lg:flex-row">
-          <div className="mockup-phone">
+          <div className="mockup-phone max-w-xs">
             <div className="camera" />
             <div className="display">
               <div className="artboard artboard-demo phone-1">
                 <Image
                   src="/assets/img/hero-cewek-2.jpg"
-                  width={300}
-                  height={400}
+                  width={250}
+                  height={300}
                   alt="hero"
                   className="h-full w-full object-cover"
                 />

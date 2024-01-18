@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="hero-overlay bg-opacity-80" />
       <div className="hero-content text-left text-neutral-content">
         <div className="max-w-xl">
-          <h1 className="mb-5 text-5xl font-bold text-white">
+          <h1 className="mb-5 text-3xl font-bold text-white md:text-5xl">
             Memberdayakan Komunitas{' '}
             <span className="bg-secondary bg-opacity-60">Perempuan</span>{' '}
             Melalui Seni Visual

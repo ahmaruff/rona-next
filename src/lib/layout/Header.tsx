@@ -67,10 +67,14 @@ const Header = () => {
         </div>
         <a href="/" className="btn btn-ghost text-xl">
           <Image
+            priority
             src="/assets/img/rona-dark.png"
-            width={100}
-            height={50}
+            width={0}
+            height={0}
+            sizes="auto"
             alt="logo Rona"
+            className="h-auto w-16 md:w-24"
+            // style={{ width: 50, height: 'auto' }}
           />
         </a>
       </div>
