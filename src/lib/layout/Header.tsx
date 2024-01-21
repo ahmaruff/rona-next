@@ -53,7 +53,7 @@ const Header = () => {
               <a>Shop</a>
               <ul className="p-2">
                 <li>
-                  <a>Shop</a>
+                  <a href="/shop">Shop</a>
                 </li>
                 <li>
                   <a>Order</a>
@@ -94,7 +94,7 @@ const Header = () => {
               <summary>Shop</summary>
               <ul className="p-2">
                 <li>
-                  <a>Shop</a>
+                  <a href="/shop">Shop</a>
                 </li>
                 <li>
                   <a>Order</a>
